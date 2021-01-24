@@ -69,6 +69,7 @@ body{
 .email-address input{
     padding: 15px;
     width: 400px;
+    border: 1px;
     border-style:solid;
     border-radius: 50px;
     border-color: $dark-grayish-red;  
@@ -77,7 +78,7 @@ body{
 
 .email-address input:focus{
     border-radius: 50px;
-    border: 3px, solid, $dark-grayish-red
+    border: 1px, solid, $dark-grayish-red
 }
 
 .arrow-button{
