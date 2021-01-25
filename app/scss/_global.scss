@@ -77,6 +77,10 @@ body{
 }
 
 .email-address input:focus{
+    outline: none;
+}
+
+.email-address input:focus{
     border-radius: 50px;
     border: 1px, solid, $dark-grayish-red
 }
@@ -95,6 +99,16 @@ body{
 .arrow-button:focus{
     border: None;
     border-color: None;
+}
+
+#error-icon{
+    margin-right: -20px;
+}
+
+.error-message{
+    font-size: small;
+    color: $soft-red;
+    padding: 8px 0px 0px 15px;
 }
 
 :focus{
@@ -148,10 +162,14 @@ body{
     }
 
     .email-address{
-        margin: 0px 20px 50px 20px;
+        margin: 0px 20px 0px 20px;
     }
 
     .email-address input{
         background-color: transparent;
+    }
+
+    .error-message{
+        padding: 5px 0px 0px 40px;
     }
 }

@@ -35,15 +35,19 @@
           Add your email below to stay up-to-date with announcements and our launch deals.</p>
       </section>
       <section class="email-address">
-        <input type="email" name="email" placeholder= "Email Address">
-        <button class="arrow-button">
+        <input id="email" type="email" name="email" placeholder= "Email Address", value="" >
+          <img id="error-icon">
+        </input>
+        <button id="submit-button" class="arrow-button" onclick="text_function()">
           <img src="/images/icon-arrow.svg" alt="arrow">
         </button>
       </section>
+      <p id="error-message" class="error-message"></p>
     </section>
     <section class="background">
     </section>
   </section>
+
   
 
   <!--
@@ -61,5 +65,6 @@
     </p>
   </footer>
 -->
+<script src="./js/script.js"></script>
 </body>
 </html>

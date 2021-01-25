@@ -76,6 +76,7 @@ body {
 .email-address input {
   padding: 15px;
   width: 400px;
+  border: 1px;
   border-style: solid;
   border-radius: 50px;
   border-color: #413a3a;
@@ -83,8 +84,12 @@ body {
 }
 
 .email-address input:focus {
+  outline: none;
+}
+
+.email-address input:focus {
   border-radius: 50px;
-  border: 3px, solid, #413a3a;
+  border: 1px, solid, #413a3a;
 }
 
 .arrow-button {
@@ -103,6 +108,16 @@ body {
 .arrow-button:focus {
   border: None;
   border-color: None;
+}
+
+#error-icon {
+  margin-right: -20px;
+}
+
+.error-message {
+  font-size: small;
+  color: #f96262;
+  padding: 8px 0px 0px 15px;
 }
 
 :focus {
@@ -156,10 +171,13 @@ body {
     padding: 20px;
   }
   .email-address {
-    margin: 0px 20px 50px 20px;
+    margin: 0px 20px 0px 20px;
   }
   .email-address input {
     background-color: transparent;
+  }
+  .error-message {
+    padding: 5px 0px 0px 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
